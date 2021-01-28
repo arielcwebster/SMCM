@@ -14,22 +14,25 @@ public class LinkedListStart {
 	public static void main(String [] args){
 		
 		//nodes to be added to the linkedlist
-		Node p1 = new Node("Maddie");
-		Node p2 = new Node("Garrett");
-		Node p3 = new Node("Christine");
-		Node p4 = new Node("Lainagail");
-		Node p5 = new Node("Matt");
-		Node p6 = new Node("Eythan");
-		Node p7 = new Node("Ankush");
-		Node p8 = new Node("Tyler");
-		Node p9 = new Node("Lance");
-		Node p10 = new Node("Dexter");
-		Node p11 = new Node("Jakob");
-		Node p12 = new Node("Michael");
-		Node p13 = new Node("Alex");
-		Node p14 = new Node("Eric");
-		Node p15 = new Node("Xan");
-		Node p16 = new Node("Liam");
+		Node p1 = new Node("Matthew");
+		Node p2 = new Node("Justin");
+		Node p3 = new Node("Coleman");
+		Node p4 = new Node("Thomas");
+		Node p5 = new Node("Jack");
+		Node p6 = new Node("Elise");
+		Node p7 = new Node("Nahom");
+		Node p8 = new Node("Noah");
+		Node p9 = new Node("Kathryn");
+		Node p10 = new Node("Faith");
+		Node p11 = new Node("Jack");
+		Node p12 = new Node("Liam");
+		Node p13 = new Node("Victor");
+		Node p14 = new Node("Albert");
+		Node p15 = new Node("Adam");
+		Node p16 = new Node("Alexander");
+		Node p17 = new Node("Luke");
+		Node p18 = new Node("Audrey");
+		Node p19 = new Node("Alexander");
 		
 		LinkedListStart ll = new LinkedListStart();
 		ll.addFirst(p7);
