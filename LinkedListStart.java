@@ -75,7 +75,7 @@ public class LinkedListStart {
 	}
 	
 	//removes an element at a specific index within the linked list
-	public void remove(Node p){
+	public void remove(int i){
 		
 	}
 	
