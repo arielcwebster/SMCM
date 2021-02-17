@@ -1,0 +1,55 @@
+import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.Random;
+
+/*
+Author:
+Date Created:
+
+General Description:
+*/
+
+public class TimeComplexityDemo {
+
+	public static void main(String args){
+		//declaration and instantiation of lists 
+		LinkedList <Double> TestLinkedList = new LinkedList();
+		ArrayList <Double> TestArrayList = new ArrayList();
+		
+		// 1. Get the first command line argument and store it as an integer value called n
+		
+		// 2. Randomly generate n doubles and insert them at the first place in TestLinkedList. 
+		// The easiest way to do this is to generate a random int from 0 to TestLinkedList.size(), inclusive,
+		// and use the add(element) method from LinkedList class. (Not you should be using the inbuilt Linked List 
+        // class not the Linked List that you created for the last lab)
+		
+		// 3. Remove 1/4 of the elements throughouth the list, at random indecies.
+		
+		// 4. Repeat 2 and 3 with TestArrayList
+		
+		// Add in timing code for both steps 2 and 3 so you can compare the time for the Linked and Array list. 
+		// To help you out, here’s the timing code, with helpful comments on where to insert your code. 
+		// Test with command line arguments of 100, 1000, 10000, and 100000.
+		
+		//process command-line argument
+
+        //get time before code is run.
+		long starttime = System.nanoTime();
+		
+		//TestArrayList 
+
+        //get time after code is run and subtract start time to get time elapsed.
+		long totaltime = System.nanoTime() - starttime; 
+		System.out.println("ArrayList insertion and removal time: " + totaltime + " ns");
+		
+		starttime = System.nanoTime();
+		
+        //TestLinkedList 2 code
+		
+        totaltime = System.nanoTime() - starttime; System.out.println("LinkedList insertion and removal time: " + totaltime + " ns");
+	}
+	
+}
+
+// Fill out the Time Comparisions file in this project and then write a paragraph describing your observations
+// and the time complexity of Adding and removing from both the Linked List and the ArrayList.
